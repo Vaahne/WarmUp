@@ -1,0 +1,38 @@
+input{
+    display: block;
+    margin: 18px;
+    background-color: rgb(186, 183, 183);
+    border: 0px;
+    text-align: center;
+    padding: 13px;
+}
+h2{
+    text-align: center;
+}
+#fieldset{
+    position:relative;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(217, 215, 215);
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2 black;
+}
+.img{
+    float:center;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 1px 9px 5px rgb(141, 135, 135);
+    filter: brightness(0); /*lowe the value gives extra darkness, higher will be the lighter*/
+}
+a{
+    text-decoration: none;
+    color: orange;
+    position:static;
+    text-align: center;
+}
+#login{
+    background-color: aqua;
+    color: white;
+    width: 170px;
+}

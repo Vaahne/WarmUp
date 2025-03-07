@@ -1,0 +1,53 @@
+body{
+    color: white;
+    min-width: 330px;
+}
+input{
+    display: block;
+    margin: 9px;
+    background-color: rgb(191, 52, 52);
+    color:white;
+    border: 0px;
+    padding: 6px 20px;
+    position: relative;
+    right:20px;
+}
+select{
+    background-color: rgb(191, 52, 52);
+    color:white;
+    border: 0px;
+    padding: 6px 20px;
+    width:200px;
+    position: relative;
+    right: 13px;
+}
+#textArea{
+    height: 60px;    
+}
+input::placeholder{
+    color:white;
+    font-size: 10px;
+}
+.container{
+    position: relative;
+    left: 40px;
+    text-align: center;
+    background-color: red;
+    width: 65%;
+    max-width: 340px;
+     height: 400px; 
+    margin: 2px auto;
+}
+form{
+    margin: 0 auto;
+    width: 50% ;
+}
+#sendMsg{
+    background-color: white;
+    color:rgb(226, 95, 95);
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 2px black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
