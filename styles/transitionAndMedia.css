@@ -1,0 +1,41 @@
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    background-color: green;
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition: all 2s; */
+}
+/* Transition have to be applied to original state */
+nav li:hover{
+    background-color: lightblue;
+    font-size: 3rem;
+
+}
+body{
+    margin:0;
+}
+#circle{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 3s;
+    
+}
+main{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle:hover{
+    /* width: 50px;
+    height: 50px; */
+    /* transform: translateX(100px); */
+    transform: rotate(360deg) translate(-150px,150px);
+}

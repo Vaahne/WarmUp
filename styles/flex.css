@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /*flex-end,flex-start,center,space-around,space-between,space-evenly*/
+    align-content: space-around;
+    height: 100vh;
+}
+.boxes {
+    border: .1px solid;
+    width: 99px;
+    height: 99px;
+    text-align: center;
+    font-size: 30px;
+ }
+#box1{
+    background-color: green;
+    
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: pink;
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: red;
+  
+}
+#box6{
+    background-color: orange;
+
+}
+#box7{
+    background-color: beige;
+  
+}
+#box8{
+    background-color: lightgrey;  
+}
+.card_body{
+   border: 2px solid grey; 
+}
+.card{
+    width: 300px;
+}

@@ -1,0 +1,11 @@
+@media only screen and (orientation: portrait){
+    body{
+        background-color: pink;
+    }
+}
+
+@media only screen and (orientation: landscape){
+    body{
+        background-color: pink;
+    }
+}
