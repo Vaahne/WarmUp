@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warmup</title>
+</head>
+<style>
+    .nav{
+        border: 2px solid black; 
+        border-radius: 1.5rem; 
+        margin: 1rem 0;
+    }
+    .navUl{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        /* border: 2px solid black; */
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .content *{
+        border: 2px solid black;
+        height: 80vh;
+        /* width: 50vh; */
+        border-radius: 3rem;
+        margin: 0 0.1rem;
+    }
+    .left{
+        flex-grow:1;
+    }
+    .right{
+        flex-grow:3
+    }
+    button,select{
+        border-radius: 0.3rem;
+        width: 9rem;
+        height: 2rem;
+    }
+   
+   
+</style>
+<body>
+    <main class="mainContent">
+    <nav class="nav border">
+        <ul class="navUl">
+            <li><img src="../images/Facebook-Logo.png" alt="Logo" width="50px"></li>
+            <li><button>About</button></li>
+            <li><button>Contact</button></li>
+            <li>
+                <select name="dropDown" id="">
+                    <option value="">Login</option>
+                    <option value="">Register</option>
+                    <option value="">AboutUs</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</main> 
+</body>
+</html>
